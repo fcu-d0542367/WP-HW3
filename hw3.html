@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>溫度轉換</title>
+	<script>
+		var celsius;
+		document.writeln("<h1>攝氏溫度轉換華氏溫度</h1>");
+		celsius = window.prompt("輸入攝氏溫度");
+		celsius = parseInt(celsius);
+		document.writeln("<h1>攝氏: " + celsius + "\t華氏: " + ctof(celsius) + "</h1>");
+		
+		function ctof(cel) {
+			return (cel * 9/5 + 32);
+		}
+	</script>
+	</head>
+<body>
+</body>
+</html>
